@@ -1,9 +1,8 @@
 site: ibnuuby
 title: Ibnu Ubaeydillah
 description: >-
-  Cyber Security Enthusiast <br> Hackthebox Player /#linux
+  Cyber Security Enthusiast <br> /home/kali/
 lang: en-US
-timezone:  Brazil/São Paulo
 repo: https://github.com/ibnuuby/ibnuuby.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: mairacanal # replace with your disqus shortname
