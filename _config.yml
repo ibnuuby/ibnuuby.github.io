@@ -1,25 +1,25 @@
-site: mairacanal
-title: Maíra Canal
+site: ibnuuby
+title: Ibnu Ubaeydillah
 description: >-
-  computer engineering @ USP <br> systems dev, embedded systems, operational systems, compilers <br> open source enthusiast /#linux
+  Cyber Security Enthusiast <br> Hackthebox Player /#linux
 lang: en-US
 timezone:  Brazil/São Paulo
-repo: https://github.com/mairacanal/mairacanal.github.io # site repo [optional]
+repo: https://github.com/ibnuuby/ibnuuby.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 discus-identifier: mairacanal # replace with your disqus shortname
 
 author:
-  name: Maíra Canal
-  picture: assets/images/profile.jpeg
-  username: mairacanal
-  github: mairacanal
-  email: maira.canal@usp.br
+  name: Ibnu Ubaeydillah
+  picture: assets/images/profile.jpg
+  username: ibnuuby
+  github: ibnuuby
+  email: ibnuubaeydillah@proton.mail.com
 
 # Font Settings
 googlewebfonts: family=Play:wght@400;700&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,500;1,600;1,700;1,900
 
 # URL settings
-url: "https://mairacanal.github.io" # Domain Name of host. [username].github.io for github pages
+url: "https://ibnuuby.github.io" # Domain Name of host. [username].github.io for github pages
 permalink: pretty
 
 # local
