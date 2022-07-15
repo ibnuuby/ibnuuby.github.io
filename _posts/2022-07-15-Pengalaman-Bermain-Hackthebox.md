@@ -1,7 +1,8 @@
 ---
 title: "Pengalaman Bermain Hackthebox"
 author: Ibnu Ubaeydillah
-layout: post
+layout: default
+comments: true
 permalink: /Pengalaman-Bermain-Hackthebox/
 categories: Hackthebox
 tags: [Hackthebox]

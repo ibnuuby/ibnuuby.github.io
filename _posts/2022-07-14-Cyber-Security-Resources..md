@@ -2,6 +2,7 @@
 title: "Cyber Security Resources"
 author: Ibnu Ubaeydillah
 layout: post
+comments: true
 permalink: /Cyber-Security-Resources/
 categories: Genel
 tags: [resources]
