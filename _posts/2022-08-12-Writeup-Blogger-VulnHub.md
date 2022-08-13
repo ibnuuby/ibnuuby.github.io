@@ -6,4 +6,3 @@ comments: true
 permalink: /Writeup-Machine-Blogger-VulnHub/
 tags: [writeup, all-post]
 ---
-Hello

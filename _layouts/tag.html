@@ -5,14 +5,26 @@ layout: default
 
 
 <section class="posts">
-  <div class="flex-row-between">
+ 
+    <div class="flex-row-between">
+      <button title="Change theme" id="theme-toggle" onclick="modeSwitcher()">
+          <div></div>
+      </button>
+      <p style="word-spacing: 1em;">
+          <a href="{{ site.url }}{{ site.baseurl }}/"> Home</a>
+          <a href="{{ site.url }}{{ site.baseurl }}/portfolio/"> Portfolio</a>
+          <a href="{{ site.url }}{{ site.baseurl }}/about/"> About</a>
+          <a href="{{ site.url }}{{ site.baseurl }}/contact/"> Contact</a>
+      </p>
+    </div>
+    <br>
     <h1>Tag #{{page.tag}}</h1>
-    <a href="{{ site.url }}{{ site.baseurl }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <!-- <a href="{{ site.url }}{{ site.baseurl }}/"><i class="fa fa-home" aria-hidden="true"></i> Home</a> -->
   </div>
   <ul>
     {% for post in site.posts %}
     {% if post.tags contains page.tag %}
-    <li><a class="post" href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a><time
+    <li><a class="post" href="{{ post.url }}">{{ post.title }}</a><time
         datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></li>
     {% endif %}
     {% endfor %}

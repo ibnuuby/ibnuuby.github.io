@@ -15,16 +15,18 @@ layout: default
         </p>
     </div>
     <br><br>
-    <div class="text-center">
+    <center>
+        <div">
         <div class="profile-image-container">
             <img style="width: 80px;
             height: 80px;
-            border-radius: 50%;" src="{{site.author.picture}}" class="profile-image">
+            border-radius: 50%;" src="https://user-images.githubusercontent.com/28418984/184457431-97e48256-2982-4dba-b4f3-d14dcc079404.png" class="profile-image">
         </div>
         <div>
             <h1>{{ site.title }}</h1>
         </div>
     </div>
+    </center>
     <div class="bio">
         {{ site.description }}
     </div>
@@ -44,18 +46,45 @@ layout: default
     <input type="search" id="search-input" placeholder="Find some articles here" aria-label="Search">
     <ul id="search-results"></ul>
 </div>
-
-<section class="posts" id="Blog">
+<br>
+<div class="posts" id="Blog">
     <h2>Tulisan Terbaru</h2>
-    <ul>
-        {% for post in site.posts %}
+<!-- post -->
+<ul>
+    {% for post in paginator.posts %}
         <li>
             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
         </li>
         {% endfor %}
-    </ul>
-    <center>
+</ul> 
+<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="webjeda">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+    <center style="margin-top: 2rem;">
         <a style="text-decoration: underline;" href="{{ site.url }}/tag/all-post/">Baca tulisan lainnya...</a>
     </center>
     <br><hr>
