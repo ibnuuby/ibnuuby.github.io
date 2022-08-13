@@ -1,5 +1,5 @@
 ---
-title: "Writeup Machine Blogger VulnHub"
+title: "Writeup Machine Blogger 1 VulnHub"
 author: Ibnu Ubaeydillah
 layout: post
 comments: true
@@ -67,7 +67,7 @@ pada direktori ``/home/james/`` saya menemukan sebuah file ``user.txt`` namun ke
 <center>
 <img src="https://user-images.githubusercontent.com/28418984/184469104-eda0928b-bee3-4f1d-88c8-a76f813d0530.png">
 </center>
-kemudian kita cek ke direktori ``/tmp`` apakah ada file yang dapat digunakan sebagai informasi, ternyata di folder ``/tmp`` ada sebuah file ``backup.tar.gz``, namun ketika saya pindahkan dan saya extrack ke local. ternyata itu hanya jebakan (rabit hole) saja. isi dari file tersebut berupa encrypt md5.
+kemudian kita cek ke direktori ``/tmp`` apakah ada file yang dapat digunakan sebagai informasi, ternyata di folder ``/tmp`` ada sebuah file ``backup.tar.gz``, namun ketika saya pindahkan dan saya extrack ke local. ternyata itu hanya jebakan (rabit hole) saja. isi dari file tersebut berupa ``encrypt base64``.
 <center>
 <img src="https://user-images.githubusercontent.com/28418984/184469891-c5e4c5ce-db4f-4e59-a13c-3a0af73cadfc.png">
 </center>
