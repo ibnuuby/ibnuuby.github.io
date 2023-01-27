@@ -9,4 +9,4 @@ gem "tzinfo-data", "~> 1.2021"
 gem 'wdm', '>= 0.1.0'
 
 # update ruby version
-gem 'webrick'
+gem "webrick"
