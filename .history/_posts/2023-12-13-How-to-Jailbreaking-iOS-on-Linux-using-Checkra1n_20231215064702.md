@@ -1,0 +1,33 @@
+---
+title: "How to Jailbreaking iOS on Linux using Checkra1n"
+author: Ibnu Ubaeydillah
+layout: post
+comments: true
+permalink: /How-to-Jailbreaking-iOS-on-Linux-using-Checkra1n/
+tags: [all-post]
+---
+
+``Jailbrake IOS`` adalah sebuah proses menghilangkan batasan yang diberlakukan oleh Apple pada perangkat genggam dengan sistem operasi iOS, yakni iPhone, iPod Touch, iPad dan Apple TV generasi ke-2. Menjebol kungkungan akan membuat sang pengguna bisa mendapatkan akses penuh (atau akses akar) terhadap sistem operasi, yang darinya pengguna iOS itu bisa mengunduh perangkat lunak, baik yang bajakan ataupun yang orisinal namun tidak tersedia di Apple App Store. 
+(source//https://id.wikipedia.org/wiki/Jailbreaking_di_iOS). 
+<br>
+
+<center>
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/28418984/290683914-e3effa61-7038-4266-ab2b-c1dc026e8ae1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T233755Z&X-Amz-Expires=300&X-Amz-Signature=fcbb178a64227080435f7c9edcbc377704b694f5eae2dd3694f643a943f9b1c4&X-Amz-SignedHeaders=host&actor_id=28418984&key_id=0&repo_id=517898668">
+</center>
+
+Beberapa tahun yang lalu, proses jailbreak dianggap kompleks, tetapi saat ini, dengan hadirnya berbagai alat bantu, seperti Checkra1n, proses tersebut menjadi lebih mudah dan dapat dilakukan oleh pengguna awam.
+
+Checkra1n disebut sebagai semi-tethered jailbreak, yang memungkinkan pengguna untuk melakukan jailbreak pada perangkat iOS mereka. Dalam jenis jailbreak ini, pengguna perlu menjalankan kembali proses jailbreak setiap kali perangkat dimatikan atau restart. Meskipun demikian, proses ini dijelaskan sebagai mudah dan sederhana, dapat dilakukan oleh pengguna awam.
+
+Teks tersebut juga menyoroti bahwa Checkra1n dapat digunakan di sistem operasi Linux, memberikan panduan cara melakukan jailbreak menggunakan alat tersebut. Kelebihan yang disorot melibatkan kemudahan dan praktisitas dalam melakukan jailbreak tanpa memerlukan perangkat tambahan atau proses yang rumit.
+
+Selain itu, penekanan pada manfaat jailbreak termasuk kemampuan pengguna untuk mengoptimalkan sistem operasi dan melakukan modifikasi pada perangkat iOS sesuai kebutuhan mereka. Dengan demikian, tutorial tersebut memberikan informasi tentang cara menggunakan Checkra1n di Linux untuk memudahkan pengguna iPhone dalam melakukan jailbreak dan mempersonalisasi perangkat mereka.
+
+<h1>Install Checkra1n</h1>
+
+```wget -O - https://assets.checkra.in/debian/archive.key | gpg --dearmor | sudo tee /usr/share/keyrings/checkra1n.gpg >/dev/null```
+<br>
+```echo 'deb [signed-by=/usr/share/keyrings/checkra1n.gpg] https://assets.checkra.in/debian /' | sudo tee /etc/apt/sources.list.d/checkra1n.list```
+<br>
+```sudo apt-get update```
+```sudo apt-get install checkra1n```
