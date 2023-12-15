@@ -37,11 +37,12 @@ bila tidak bisa install checkra1n menggunakan perintah ``sudo apt-get install ch
 Buka link ini https://checkra.in/releases/#all-downloads
 Pilih Download for linux
 ```
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/28418984/290685997-c5fc7739-6fc0-45a2-aa6c-d087ffba3df4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T235148Z&X-Amz-Expires=300&X-Amz-Signature=d06dfe60e40489ec0149ce7cb3fb6a44ee7fe541638b9022d233f9828959ad36&X-Amz-SignedHeaders=host&actor_id=28418984&key_id=0&repo_id=517898668">
 
 Setelah file checkra1n berhasil di download, selanjutnya kalian, jalankan perintah ``chmod +x ./checkra1n``, setelah itu jalankan perintah ``./checkra1n``. maka chekra1n akan otomatis dijalankan.  
 
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/checkra1n-1.png">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/28418984/290686851-2d0275a0-d9d8-445c-b53d-606fc3aff323.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T235812Z&X-Amz-Expires=300&X-Amz-Signature=d99e567c764d4d137d240b3284b11407616a0505664324ac756f13531d8a887b&X-Amz-SignedHeaders=host&actor_id=28418984&key_id=0&repo_id=517898668">
 </center>
 
 Selanjutnya pilih ``Start`` dan Enter. owh iya jangan lupa kalian harus menghubungkan iphone dengan menggunakan kabel USB terlebih dahulu ya sebelum menjalakan ``checkra1n`` ini.
@@ -49,18 +50,18 @@ Selanjutnya pilih ``Start`` dan Enter. owh iya jangan lupa kalian harus menghubu
 Selanjutnya checkra1n akan membuat iPhone kita masuk ke recovery mode.
 
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/checkra1n-2.png">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/28418984/290687526-44d1940a-511b-4ec0-9581-7b0e506de187.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231215T000216Z&X-Amz-Expires=300&X-Amz-Signature=bbf95eeaf6780cf1a61d3e462a25e2e8107ec0115c390eefaf81f2ef73ec592b&X-Amz-SignedHeaders=host&actor_id=28418984&key_id=0&repo_id=517898668">
 </center>
 
 Selanjutnya kita akan diinstruksikan untuk masuk ke DFU mode. Tinggal pilih Start, Enter, lalu ikuti saja instruksi dari checkra1n.
 
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/DFU-Mode.png">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/28418984/290687623-591954a2-be82-4f22-810d-38294e453d88.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231215T000342Z&X-Amz-Expires=300&X-Amz-Signature=6e21ad50b7324a5b67337c4f601d7a58483ae728a7f566eac34cbd8812a1bfa0&X-Amz-SignedHeaders=host&actor_id=28418984&key_id=0&repo_id=517898668">
 </center>
 
 Sampai proses ini kalian tinggal tunggu saja prosesnya sampai selesai.
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/jalikbreaking.png">
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/28418984/290687930-a0a489e1-5f6b-40eb-9351-0c1a75b252dc.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231215%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231215T000535Z&X-Amz-Expires=300&X-Amz-Signature=09e25f28b83f10989074f049f41e449c40b9c674d215de253db879f8f75cb787&X-Amz-SignedHeaders=host&actor_id=28418984&key_id=0&repo_id=517898668">
 </center>
 
 
