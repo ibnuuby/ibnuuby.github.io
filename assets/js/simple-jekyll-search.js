@@ -409,6 +409,7 @@ var _$src_8 = {};
   function render (results, query) {
     const len = results.length
     if (len === 0) {
+      // deepcode ignore UsageOfUndefinedReturnValue: <please specify a reason of ignoring this>
       return appendToResultsContainer(options.noResultsText)
     }
     for (let i = 0; i < len; i++) {
