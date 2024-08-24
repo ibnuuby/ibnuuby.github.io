@@ -475,7 +475,7 @@ color: #333;
     position: absolute;
     border-radius: 5px;
     padding: 10px 10px 10px 35px;
-    color: var(--main-text-color);
+    appearance: none; /* Add this line for standard compatibility */
     -webkit-appearance: none;
     background-color: rgba(128, 128, 128, 0.1);
     border: 1px solid rgba(128, 128, 128, 0.1);
